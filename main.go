@@ -56,6 +56,7 @@ func main() {
 		os.Exit(1)
 	}
 	bindata.WriteString(fmt.Sprintf(`
+//this file genetated by bindata (https://github.com/jiazhoulvke/bindata)
 package %s
 
 import (
